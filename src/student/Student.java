@@ -11,7 +11,7 @@ package student;
 public class Student {
 private String studentId; 
 
-    public Student(String studentId , String studentName) {
+    public Student student(String studentId , String studentName) {
         this.studentId = studentId;
         this.studentName = studentName;
     }
