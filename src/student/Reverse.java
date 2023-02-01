@@ -4,6 +4,8 @@
  */
 package student;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ashan
@@ -23,7 +25,7 @@ public class Reverse {
             System.out.println (myArray [i]); 
         }
         
-        Scanner new scan = new Scanner (System.in);
+        Scanner new scan = new Scanner(System.in);
         System.out.println("enter a word");
         String word = scan.nextLine(); 
         char [] myLetters = new char [word.length()]; 

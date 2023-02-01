@@ -15,10 +15,15 @@ private String studentId;
         this.studentId = studentId;
         this.studentName = studentName;
     }
+ 
+    private String studentAddress;
     
+    
+
     
     
 private String studentName;
+
 
 public String getStudentId() {
         return studentId;
